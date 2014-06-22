@@ -1,0 +1,309 @@
+# EESchema Netlist Version 1.1 created  Mon 02 Dec 2013 08:47:10 PM CET
+(
+ ( /529BB2BD SM0603_Capa_x C1 100nF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /529BB055 SM0603_Capa_x C2 100nF
+  ( 1 N-000036 )
+  ( 2 GND )
+ )
+ ( /529B96E3 SM0603_Capa_x C3 100nF
+  ( 1 N-000040 )
+  ( 2 RST )
+ )
+ ( /529B8A6B SM0603_Capa_x C4 100nF
+  ( 1 VCC )
+  ( 2 VCC3O )
+ )
+ ( /529B9B8C SM0603_Capa_x C5 22pF
+  ( 1 XTAL2 )
+  ( 2 GND )
+ )
+ ( /529B9B82 SM0603_Capa_x C6 22pF
+  ( 1 XTAL1 )
+  ( 2 GND )
+ )
+ ( /529B9ACC TQFP32 IC1 ATMEGA328P-A
+  ( 1 N-000002 )
+  ( 2 N-000001 )
+  ( 3 GND )
+  ( 4 VCC )
+  ( 5 GND )
+  ( 6 VCC )
+  ( 7 XTAL1 )
+  ( 8 XTAL2 )
+  ( 9 N-000038 )
+  ( 10 N-000037 )
+  ( 11 N-000035 )
+  ( 12 N-000027 )
+  ( 13 N-000031 )
+  ( 14 N-000030 )
+  ( 15 MOSI )
+  ( 16 MISO )
+  ( 17 SCK )
+  ( 18 VCC )
+  ( 19 ? )
+  ( 20 N-000036 )
+  ( 21 GND )
+  ( 22 ? )
+  ( 23 N-000048 )
+  ( 24 N-000007 )
+  ( 25 N-000029 )
+  ( 26 N-000028 )
+  ( 27 N-000034 )
+  ( 28 N-000043 )
+  ( 29 RST )
+  ( 30 RX )
+  ( 31 TX )
+  ( 32 N-000032 )
+ )
+ ( /529B8420 SSOP28 IC2 FT232RL
+  ( 1 N-000003 )
+  ( 2 N-000040 )
+  ( 3 ? )
+  ( 4 VCC )
+  ( 5 N-000026 )
+  ( 6 N-000025 )
+  ( 7 GND )
+  ( 9 N-000045 )
+  ( 10 N-000024 )
+  ( 11 N-000008 )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 N-000019 )
+  ( 16 N-000018 )
+  ( 17 VCC3O )
+  ( 18 GND )
+  ( 19 VCC )
+  ( 20 VCC )
+  ( 21 GND )
+  ( 22 N-000022 )
+  ( 23 N-000021 )
+  ( 25 GND )
+  ( 26 GND )
+  ( 27 ? )
+  ( 28 ? )
+ )
+ ( /529B97B7 pin_array_3x2 ISP1 ISP
+  ( 1 MISO )
+  ( 2 VCC )
+  ( 3 SCK )
+  ( 4 MOSI )
+  ( 5 RST )
+  ( 6 GND )
+ )
+ ( /529BAD31 SIL-8 J1 DIGITAL
+  ( 1 RX )
+  ( 2 TX )
+  ( 3 N-000032 )
+  ( 4 N-000002 )
+  ( 5 N-000001 )
+  ( 6 N-000038 )
+  ( 7 N-000037 )
+  ( 8 N-000035 )
+ )
+ ( /529BAD26 SIL-6 J2 ANALOG_IN
+  ( 1 N-000048 )
+  ( 2 N-000007 )
+  ( 3 N-000029 )
+  ( 4 N-000028 )
+  ( 5 N-000034 )
+  ( 6 N-000043 )
+ )
+ ( /529BAD2D SIL-8 J3 DIGITAL
+  ( 1 N-000027 )
+  ( 2 N-000031 )
+  ( 3 N-000030 )
+  ( 4 MOSI )
+  ( 5 MISO )
+  ( 6 SCK )
+  ( 7 GND )
+  ( 8 N-000036 )
+ )
+ ( /529BB313 SIL-6 J4 POWER
+  ( 1 RST )
+  ( 2 VCC3O )
+  ( 3 VCC )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 ? )
+ )
+ ( /529BB225 LED-0603_x L1 LED
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /529CDA84 PIN_ARRAY_2X1 P1 CONN_2
+  ( 1 N-000048 )
+  ( 2 N-000007 )
+ )
+ ( /529CE302 PIN_ARRAY_4x1 P2 CONN_4
+  ( 1 N-000008 )
+  ( 2 N-000045 )
+  ( 3 N-000024 )
+  ( 4 N-000025 )
+ )
+ ( /529BB20C SM0603_x R1 1K
+  ( 1 SCK )
+  ( 2 N-000011 )
+ )
+ ( /529B8CD8 SM0603_x R2 1K
+  ( 1 VCC )
+  ( 2 N-000014 )
+ )
+ ( /529B8CD0 SM0603_x R3 1K
+  ( 1 N-000013 )
+  ( 2 VCC )
+ )
+ ( /529BAE2C SM0603_x R4 1K
+  ( 1 N-000003 )
+  ( 2 RX )
+ )
+ ( /529BAE25 SM0603_x R5 1K
+  ( 1 N-000026 )
+  ( 2 TX )
+ )
+ ( /529BACDE SM0603_x R6 10K
+  ( 1 VCC )
+  ( 2 RST )
+ )
+ ( /529B96C1 SM0603_x R7 0_Ohm
+  ( 1 N-000040 )
+  ( 2 N-000040 )
+ )
+ ( /529B85D1 LED-0603_x RX1 LED
+  ( 1 N-000013 )
+  ( 2 N-000021 )
+ )
+ ( /529BACA5 SW_PUSH_SMD S1 RESET
+  ( 1 RST )
+  ( 2 GND )
+ )
+ ( /529B85D8 LED-0603_x TX1 LED
+  ( 1 N-000014 )
+  ( 2 N-000022 )
+ )
+ ( /529B8F25 USB_B USB1 USB
+  ( 1 VCC )
+  ( 2 N-000018 )
+  ( 3 N-000019 )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 GND )
+ )
+ ( /529CD2A6 Crystal_SMD_0603_2Pads_obsolete_RevA_09Aug2010 X1 16MHz
+  ( 1 XTAL2 )
+  ( 2 XTAL1 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component L1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component RX1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component TX1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$endfootprintlist
+}
